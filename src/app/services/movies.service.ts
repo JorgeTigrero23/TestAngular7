@@ -8,7 +8,7 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 })
 export class MovieService {
 
-  API_URL = "http://localhost:8000/api"
+  API_URL = "https://api-rest-with-laravel-movies.herokuapp.com/api"
 
   constructor(private httpClient:HttpClient) { }
 
